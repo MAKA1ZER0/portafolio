@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Portafolio Profesional | Adrian Amaya</title>
+        <meta charset="UTF=8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #typewriter-title {
+                font-size: 2em;
+                font-family: 'Courier New', Courier, monospace;
+                color: #990406;
+                white-space: pre;
+            }
+        </style>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #visit-count {
+                font-size: 1.5em;
+                font-family: Arial, sans-serif;
+                color: #bc7f30;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1 id="typewriter-title"></h1>
+        <h1> Adrian Amaya</h1>
+        <link rel="stylesheet" href="index.css">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Lab 2-Portafolio.html">Portafolio</a></li>
+                <li><a href="Lab 2-Proyectos.html">Proyectos</a></li>
+            </ul>
+        </nav>
+        <main>
+            <input type="checkbox" id="btnColor" onchange="light_dark_mode(this)">
+    <style>
+        #clock {
+            font-size: 2em;
+            font-family: Arial, sans-serif;
+            color: #990406;
+        }
+    </style>
+    <div id="clock">CARGANDO TIEMPO...</div>
+     <div id="visit-count">Visitas: 0</div>
+
+            <img src="">
+            <p>Soy una persona comprometida cuando consigo una tarea, aprendo rápido y tengo ganas de superarme. Estoy atento a las indicaciones, y dispuesta a ir más allá de lo solicitado, apoyando con todo lo que esté a mi alcance.</p>
+        <section>
+            <h2>Detalles Personales</h2>
+            <ul>
+                <li>Fecha de Nacimiento: 27/12/03</li>
+                <li>Cédula: 8-1003-1509</li>
+                <li>Dirección: Clayton Village, Casa 64</li>
+                <li>Numero de Celular: (507) 6752-2453</li>
+                <li>Email: adrianarturo333@gmail.com</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Experiencia</h2>
+            <ul>
+                <h5>2019</h5>
+                <li>Servicio al Cliente – Clínica Estética Carvajal
+                    Me encargaba de recibir clientes en la clínica, ofrecer café o té, repartir formularios que los pacientes debían llenar y ayudar a la asistente administrativa con tareas generales. El trabajo se realizó durante el verano.
+                    </li>
+                <h5>2024</h5>
+                <li>Pasantía – Apprendo Academy
+                    Me encargaba de recibir clientes en la clínica, ofrecer café o té, repartir formularios que los pacientes debían llenar y ayudar a la asistente administrativa con tareas generales. El trabajo se realizó durante el verano.
+                    </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Educación</h2>
+            <ul>
+                <h5>2022 - Actualmente</h5>
+                <li>Lic. En Ciencias en Diseño y Desarrollo de Videojuegos
+                    Universidad Interamericana de Puerto Rico – Recinto de Bayamón -Sede de Panamá 
+                    </li>
+                <h5>Dec 2021 – Feb 2022</h5>
+                <li>Python Nivel 1
+                    MasKodigo Academia Virtual
+                    </li>
+                <h5>2016 - 2021</h5>
+                <li>Licenciatura en Ciencias y Letras
+                    Instituto Atenea
+                    </li>
+
+            </ul>
+
+        </section>
+
+        <section>
+            <h2>Aptitudes</h2>
+            <ul>
+                <li>Creativo</li>
+                <li>Fluido en inglés</li>
+                <li>Bueno siguiendo órdenes</li>
+                <li>Comprometido</li>
+                <li>Atento</li>
+            </ul>
+
+        </section>
+
+       </main>
+
+       <script src="Index.js"></script>
+
+    </body>
+
+</html>

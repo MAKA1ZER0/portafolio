@@ -1,0 +1,32 @@
+
+body 
+{ 
+    background-color: #370C94; 
+    color: #D9D3D3;
+}
+
+h1
+{
+color: #bc7f30;
+font-family: "Noto Sans Japanese";
+font-weight: bold;
+}
+
+.switch { position: relative; padding-top: 5px }
+input[type="checkbox"]{
+   position: relative; width: 88px; height: 35px;
+   appearance: none; cursor: pointer;
+   background: #c6c6c6; outline: none; border-radius: 20px; transition: .5s; box-shadow: inset 0 0 5px rgba(0,0,0,0.2)
+}
+
+input[type="checkbox"]:before {
+    content: ""; position: absolute; width: 35px; height: 35px;
+    border-radius: 20px; top: 0; left: 0; box-shadow: 0 2px 5px rgba(0,0,0,0.2); background: #fff;
+    transform: scale(1.1); transition: .5s;
+}
+
+input:checked[type="checkbox"] { background: #03a9f4 }
+input:checked[type="checkbox"]:before { left: 45px }
+
+
+
